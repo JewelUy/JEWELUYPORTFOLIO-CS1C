@@ -2,7 +2,7 @@
 <html>
 
  <head> 
-    <title>Dashboard - CS-1C UY Portfolio</title>
+    <title>CS-1C UY Portfolio </title>
     <style>
       body {
         background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2a2a2a 100%);
@@ -14,144 +14,89 @@
       header {
         color: #e0e0e0;
       }
-
-      /* Navigation Bar Styling */
-      nav {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 15px 0;
-        margin-bottom: 30px;
-        border-radius: 8px;
-        border-bottom: 2px solid #87ceeb;
-      }
-
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0 20px;
-        display: flex;
-        gap: 30px;
-      }
-
-      nav ul li {
-        display: inline;
-      }
-
-      nav ul li a {
-        color: #87ceeb;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 10px 15px;
-        border-radius: 5px;
-        transition: 0.3s;
-      }
-
-      nav ul li a:hover {
-        background-color: rgba(135, 206, 235, 0.2);
-        text-decoration: underline;
-      }
-
+      
       h1, h2 {
         color: #ffffff;
       }
-
-      .dashboard-container {
+      
+      table {
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 8px;
-        padding: 30px;
-        margin: 20px 0;
+        padding: 10px;
       }
-
-      .submission-card {
-        background-color: rgba(0, 0, 0, 0.3);
-        border-left: 4px solid #87ceeb;
-        padding: 20px;
-        margin: 15px 0;
-        border-radius: 5px;
+      
+      td, th {
+        color: #e0e0e0;
+        padding: 10px;
       }
-
-      .submission-card h3 {
+      
+      a {
         color: #87ceeb;
-        margin-top: 0;
+        text-decoration: none;
       }
-
-      .submission-card p {
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      p, li {
         color: #d3d3d3;
-        margin: 10px 0;
-      }
-
-      .submission-status {
-        display: inline-block;
-        padding: 5px 15px;
-        border-radius: 5px;
-        font-weight: bold;
-        margin-top: 10px;
-      }
-
-      .status-pending {
-        background-color: #ffa500;
-        color: #000;
-      }
-
-      .status-submitted {
-        background-color: #4caf50;
-        color: #fff;
-      }
-
-      p {
-        color: #d3d3d3;
-      }
-
-      .empty-message {
-        text-align: center;
-        color: #888;
-        padding: 40px;
       }
     </style>
 
  </head>
+        <header> <h1>Portfolio landing page </h1> </header>
+ 
+        
+            <hr> </hr>
+            <body>
 
- <body>
-    <!-- Navigation Menu -->
-    <nav>
-      <ul>
-        <li><a href="index.html">🏠 Home</a></li>
-        <li><a href="dashboard.html">📊 Dashboard</a></li>
-        <li><a href="quiz-upload.html">📝 Quiz Upload</a></li>
-        <li><a href="lab-upload.html">💻 Lab Work Upload</a></li>
-        <li><a href="exam-upload.html">📚 Exam Upload</a></li>
-      </ul>
-    </nav>
+          
+          <h2><p>Student profile </p></h2>
 
-    <header>
-      <h1>📊 Dashboard</h1>
-    </header>
 
-    <hr>
+                <table>
+                    <table border="1" style="width:500px;">
 
-    <div class="dashboard-container">
-      <h2>Your Submissions</h2>
+                        <tr>
+                            <th><img src="batman.png" width = "120" height= "120">
+                        </tr>
+                    <tr>
+                        <th>Name</th>
+                       <td> Dawnjewel Blaze G. Uy </td>
+                        
+                     </tr>
 
-      <div class="submission-card">
-        <h3>📝 Quiz 01</h3>
-        <p><strong>Status:</strong> <span class="submission-status status-submitted">✓ Submitted</span></p>
-        <p><strong>Submitted Date:</strong> April 5, 2026</p>
-      </div>
+                    <tr>
+                  <th>Student Number</th>
+                    <td>251100696</td>
+                
+                     </tr>
 
-      <div class="submission-card">
-        <h3>💻 Lab 01 - Carousel</h3>
-        <p><strong>Status:</strong> <span class="submission-status status-submitted">✓ Submitted</span></p>
-        <p><strong>Submitted Date:</strong> March 28, 2026</p>
-        <p><strong>Link:</strong> <a href="https://jeweluy.github.io/carouselUy/">View Project</a></p>
-      </div>
+                    <tr>
+               <th>Course & section </th>
+                <td>CS-1C</td>
+                     </tr>
+                    </table>
+                         </table>
 
-      <div class="submission-card">
-        <h3>📚 Midterm Exam</h3>
-        <p><strong>Status:</strong> <span class="submission-status status-pending">⏳ Pending</span></p>
-        <p>No submissions yet. <a href="exam-upload.html">Submit now</a></p>
-      </div>
+                </hr>
+                <hr> </hr>
 
-    </div>
+                   <h2><p>Information about me </p></h2>
 
- </body>
+                   <ol>
+                    <li><p>I like going to the gym </p></li>
+                     <li><p>I like playing valorant </p></li>
+                     <li> <p> I love my girlfriend so much :3 </p></li>
+                   </ol>
+               
+                        <hr> </hr>
+
+                      <h2><p> Computer labortory activities:</p></h2>
+
+                      <p> Carousel : <a href="https://jeweluy.github.io/carouselUy/"> LAB 01 </a></p>
+
+            </body>
 
 </html>

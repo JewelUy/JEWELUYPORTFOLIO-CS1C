@@ -41,31 +41,35 @@
         color: #d3d3d3;
       }
     </style>
-
 </head>
+
 <body>
 
- 
-    <nav class="navbar">
-          <h1>Portfolio landing page</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quiz.html">Quiz</a></li>
-            <li><a href="lab.html">Lab</a></li>
-            <li><a href="midterm exam.html">Major exams</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <h1>Portfolio landing page</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="lab.html">Lab</a></li>
+        <li><a href="midterm exam.html">Major exams</a></li>
+    </ul>
+</nav>
+
 <style>
 body{
     margin: 0px;
 }
+
 main{
     margin-left: 20px;
     margin-right: 20px;
 }
-h1{
+
+/* ✅ FIX: only center h1 inside main */
+main h1{
     text-align: center;
 }
+
 .navbar ul{
     list-style-type: none;
     background-color: rgba(255,255,255,0.05);
@@ -73,6 +77,7 @@ h1{
     margin: 0px;
     overflow: hidden;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
@@ -80,56 +85,51 @@ h1{
     display: block;
     text-align: center;
 }
+
 .navbar a:hover{
     background-color: hsl(0, 0%, 10%);
 }
+
 .navbar li{
     float: left;
 }
 
 </style>
-    <main>
-         
-        
-          <h2><p>Student profile </p></h2>
-                 <hr> </hr>
 
-                <table>
-                    <table border="1" style="width:500px;">
+<main>
+    <h2><p>Student profile </p></h2>
+    <hr>
 
-                        <tr>
-                            <th><img src="batman.png" width = "120" height= "120">
-                        </tr>
-                    <tr>
-                        <th>Name</th>
-                       <td> Dawnjewel Blaze G. Uy </td>
-                        
-                     </tr>
-
-                    <tr>
-                  <th>Student Number</th>
-                    <td>251100696</td>
-                
-                     </tr>
-
-                    <tr>
-               <th>Course & section </th>
+    <table>
+        <table border="1" style="width:500px;">
+            <tr>
+                <th><img src="batman.png" width="120" height="120"></th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Dawnjewel Blaze G. Uy</td>
+            </tr>
+            <tr>
+                <th>Student Number</th>
+                <td>251100696</td>
+            </tr>
+            <tr>
+                <th>Course & section</th>
                 <td>CS-1C</td>
-                     </tr>
-                    </table>
-                         </table>
+            </tr>
+        </table>
+    </table>
 
-              
-                <hr> </hr>
+    <hr>
 
-                   <h2><p>Information about me </p></h2>
+    <h2><p>Information about me </p></h2>
 
-                   <ol>
-                    <li><p>I like going to the gym </p></li>
-                     <li><p>I like playing valorant </p></li>
-                     <li> <p> I love my girlfriend so much :3 </p></li>
-                   </ol>
-    </main> 
+    <ol>
+        <li><p>I like going to the gym </p></li>
+        <li><p>I like playing valorant </p></li>
+        <li><p>I love my girlfriend so much :3 </p></li>
+    </ol>
+</main> 
 
 </body>
 </html>

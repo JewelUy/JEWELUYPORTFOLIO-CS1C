@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Laboratory activities</title>
-<link rel="icon" href="batman.png">
-<link rel="shortcut icon" href="batman.png">
+  <title>Lab</title>
+  <link rel="icon" href="batman.png">
+
   <style>
     body {
       background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2a2a2a 100%);
@@ -45,80 +45,55 @@
       background-color: rgba(255,255,255,0.1);
     }
 
-    /* FORM BOX */
-    .box {
-      background-color: rgba(255,255,255,0.1);
-      padding: 20px;
-      border-radius: 10px;
-      width: 400px;
-    }
-
-    input, button {
-      margin-top: 5px;
-      margin-bottom: 15px;
-      padding: 5px;
-    }
-
-    button {
-      background-color: #ffffff;
-      border: none;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #f3f5f6;
-    }
-
+    /* FLEX CONTAINER */
     .quiz-container {
       display: flex;
       gap: 20px;
       margin-top: 20px;
+      flex-wrap: wrap;
     }
 
-    /* ✅ FIXED IMAGE STYLE */
-    .lab-img {
+    /* CARD */
+    .box {
+      background-color: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      width: 380px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .box img {
       width: 100%;
-      height: auto;
+      height: 360px;
+      object-fit: contain;
+      background-color: rgba(0,0,0,0.2);
       border-radius: 8px;
     }
-
   </style>
 </head>
 
 <body>
 
-<h1>Laboratory activities upload page</h1>
+<h1>Laboratory activities</h1>
 
-<!-- NAVIGATION -->
 <nav class="navbar">
   <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Dashboard.html">Dashboard</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-        <li><a href="lab.html">Lab</a></li>
-        <li><a href="midterm exam.html">Major exams</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+    <li><a href="lab.html">Lab</a></li>
+    <li><a href="midterm exam.html">Major exams</a></li>
   </ul>
 </nav>
 
-<!-- FORM -->
+<div class="quiz-container">
+
   <div class="box">
-  <form>
-    
-    <label>Title:</label><br>
-    <input type="text" name="title"><br><br>
-
-    <label>Upload File:</label><br>
-    <input type="file" name="file"><br><br>
-
-    <label>Website link:</label><br>
-    <input type="url" name="link" placeholder="https://example.com"><br><br>
-
-    <button type="submit">Submit</button>
-
-  </form>
-</div>
-</div>
-
+    <h1>Lab 1</h1>
+    <img src="lab1.jpg" alt="Lab 1">
+  </div>
 
 </body>
 </html>
